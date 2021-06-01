@@ -24,12 +24,6 @@
       "src/@types",
       "node_modules/@types"
     ],
-    "baseUrl": ".",
-    "paths": {
-      "@src/*": [
-        "src/*"
-      ]
-    },
     "strict": true,
     "moduleResolution": "node",
     "noUnusedLocals": true,
