@@ -23,6 +23,7 @@ module.exports = () => {
       new webpack.ProgressPlugin(),
       new ForkTsCheckerWebpackPlugin(),
       new HtmlWebpackPlugin({
+        inject: false,
         template: "./src/index.html"
       })
     ],
